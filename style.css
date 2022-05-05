@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right, rgb(255,0,0), rgb(0,255,0));
+    /*background-color: red;*/
+    margin: auto 0px;
+    text-align: center;
+    margin-top: 15%;
+    text-transform: uppercase;
+    letter-spacing: 1.5em;
+    height: 100vh;
+}
+
+p {
+    font-size: 0.7em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+}
+.css {
+    font-weight: lighter;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+}
+
