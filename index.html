@@ -5,15 +5,15 @@
        <link type="text/css" rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Background Generator</h1>
-        <input type="color" class="color1"> 
-        <input type="color" class="color2"> 
+        <h1>Awesome Background Generator</h1>
+        <input type="color" id="color1"> 
+        <input type="color" id="color2"> 
         <p>Current CSS Background</p>
         <p class="css"></p>
         <script>
             var css = document.querySelector(".css");
-            var color1 = document.querySelector(".color1");
-            var color2 = document.querySelector(".color2");
+            var color1 = document.querySelector("#color1");
+            var color2 = document.querySelector("#color2");
             
             function setGradient(){
                 document.body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
